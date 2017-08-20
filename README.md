@@ -1,8 +1,7 @@
 # git_configpy
-一键配置git
-========
-使用方法：
------------
+##一键配置git
+##使用方法：
+
 1. 打开源文件修改你想要的配置
 2. 运行：./git_configpy.py
 3. 把公钥粘贴到github网站上，在shell下输入:ssh -T git@github.com
