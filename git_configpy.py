@@ -21,7 +21,7 @@ if 'id_rsa' in ls_out:
 set_ssh.stdin.close()
 subprocess.Popen("echo 'git一键配置脚本'", shell=True)
 subprocess.Popen("echo '作者：hijacklinux'", shell=True)
-subprocess.Popen("echo '输入密码后，请复制下面公钥内容粘贴到github->settings->SSH keys,并按Ctrl+C退出配置'", shell=True)
+subprocess.Popen("echo '输入密码后，请复制下面公钥内容粘贴到github->settings->SSH keys,按Ctrl+C退出配置'", shell=True)
 subprocess.Popen("echo '\n'", shell=True)
 cmd_out = set_ssh.stdout.read()
 set_ssh.stdout.close()
